@@ -1,31 +1,293 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: Chen
+ * @Date: 2024-06-15 12:54:06
+ * @LastEditors: Chen
+ * @LastEditTime: 2024-06-15 14:29:56
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobile Page</title>
+    <title>店铺信息</title>
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
+            padding:0 15px 10px  15px;
         }
         .header {
-            background-color: #f2f2f2;
-            padding: 20px;
-            text-align: center;
+            /* background-color: #f2f2f2; */
+            text-align: left;
         }
-        .content {
-            margin: 20px;
-            padding: 20px;
+        .list {
+          width: 100%;
+        }
+        .info{
+          background-color: rgb(240, 246, 255);
+          border-radius:0 0px 5px 5px;
+          box-shadow: rgb(189, 189, 189) 0px 0px 4px;
+          /* background-image: linear-gradient(rgb(232, 254, 255) 0%, rgb(255, 241, 243) 100%); */
+        }
+        .imgcls{
+          width: 100%;
+          display: block;
+          border-radius:5px 5px 0px 0px;
+          object-fit: fill;
+          height: 300px;
+        }
+        .remark{
+          padding:15px 10px;
+        }
+        .contract{
+          padding:0px 10px 20px;
+          margin-bottom: 40px;
+          color: red;
+        }
+        .title{
+          font-size: 16px;
+          color:black;
         }
     </style>
 </head>
 <body>
     <div class="header">
-        <h1>Mobile Page</h1>
+        <h2>商铺信息</h2>
     </div>
     <div class="content">
-        <p>This is a simple mobile page.</p>
+      <div class="list">
+        <img class="imgcls" src="./img/img1.png" alt="">
+        <div class="info">
+          <div class="remark">
+            <strong class="title">备注：</strong>园湖北路29号外1号铺
+          </div>
+          <div class="contract">
+              <strong class="title">合同期：</strong>2023年10月15日至2026年10月14日
+          </div>
+        </div>
+      </div>
+      <div class="list">
+        <img class="imgcls" src="./img/img2.png" alt="">
+        <div class="info">
+          <div class="remark">
+            <strong class="title">备注：</strong>园湖北路29号外2号铺
+          </div>
+          <div class="contract">
+              <strong class="title">合同期：</strong>2024年1月1日至2027年12月31日
+          </div>
+        </div>
+      </div>
+      <div class="list">
+        <img class="imgcls" src="./img/img22.png" alt="">
+        <div class="info">
+          <div class="remark">
+            <strong class="title">备注：</strong>园湖北路29号外2-2号铺
+          </div>
+          <div class="contract">
+              <strong class="title">合同期：</strong>2023年3月27日至2026年3月26日
+          </div>
+        </div>
+      </div>
+      <div class="list">
+        <img class="imgcls" src="./img/img3.png" alt="">
+        <div class="info">
+          <div class="remark">
+            <strong class="title">备注：</strong>园湖北路29号外3号铺
+          </div>
+          <div class="contract">
+              <strong class="title">合同期：</strong>2024年4月1日至2029年3月31日
+          </div>
+        </div>
+      </div>
+      <div class="list">
+        <img class="imgcls" src="./img/img33.png" alt="">
+        <div class="info">
+          <div class="remark">
+            <strong class="title">备注：</strong>园湖北路29号外3-3号铺
+          </div>
+          <div class="contract">
+              <strong class="title">合同期：</strong>2023年3月15日至2026年3月14日
+          </div>
+        </div>
+      </div>
+      <div class="list">
+        <img class="imgcls" src="./img/img4.png" alt="">
+        <div class="info">
+          <div class="remark">
+            <strong class="title">备注：</strong>园湖北路29号外4号铺
+          </div>
+          <div class="contract">
+              <strong class="title">合同期：</strong>2024年7月1日至2027年6月30日
+          </div>
+        </div>
+      </div>
+      <div class="list">
+        <img class="imgcls" src="./img/img5.png" alt="">
+        <div class="info">
+          <div class="remark">
+            <strong class="title">备注：</strong>园湖北路29号外5号铺
+          </div>
+          <div class="contract">
+              <strong class="title">合同期：</strong>2023年7月5日至2026年7月3日
+          </div>
+        </div>
+      </div>
+      <div class="list">
+        <img class="imgcls" src="./img/img6.png" alt="">
+        <div class="info">
+          <div class="remark">
+            <strong class="title">备注：</strong>园湖北路29号外6号铺 
+          </div>
+          <div class="contract">
+              <strong class="title">合同期：</strong>2024年4月1日至2028年3月31日
+          </div>
+        </div>
+      </div>
+      <div class="list">
+        <img class="imgcls" src="./img/img7.png" alt="">
+        <div class="info">
+          <div class="remark">
+            <strong class="title">备注：</strong>园湖北路29号外7号铺
+          </div>
+          <div class="contract">
+              <strong class="title">合同期：</strong>2023年10月1日至2028年9月30日
+          </div>
+        </div>
+      </div>
+      <div class="list">
+        <img class="imgcls" src="./img/img8.png" alt="">
+        <div class="info">
+          <div class="remark">
+            <strong class="title">备注：</strong>园湖北路29号外8号铺
+          </div>
+          <div class="contract">
+              <strong class="title">合同期：</strong>2022年10月1日至2025年9月30日
+          </div>
+        </div>
+      </div>
+      <div class="list">
+        <img class="imgcls" src="./img/img9.png" alt="">
+        <div class="info">
+          <div class="remark">
+            <strong class="title">备注：</strong>园湖北路29号外9号铺
+          </div>
+          <div class="contract">
+              <strong class="title">合同期：</strong>2022年10月1日至2025年9月30日
+          </div>
+        </div>
+      </div>
+      <div class="list">
+        <img class="imgcls" src="./img/img10.png" alt="">
+        <div class="info">
+          <div class="remark">
+            <strong class="title">备注：</strong>园湖北路29号外10号铺
+          </div>
+          <div class="contract">
+              <strong class="title">合同期：</strong>2022年10月1日至2025年9月30日
+          </div>
+        </div>
+      </div>
+      <div class="list">
+        <img class="imgcls" src="./img/img11.png" alt="">
+        <div class="info">
+          <div class="remark">
+            <strong class="title">备注：</strong>园湖北路29号外11号铺
+          </div>
+          <div class="contract">
+              <strong class="title">合同期：</strong>2021年10月1日至2024年9月30日
+          </div>
+        </div>
+      </div>
+      <div class="list">
+        <img class="imgcls" src="./img/img121314.png" alt="">
+        <div class="info">
+          <div class="remark">
+            <strong class="title">备注：</strong>园湖北路29号外12、13、14号铺
+          </div>
+          <div class="contract">
+              <strong class="title">合同期：</strong>2024年1月1日至2026年12月31日
+          </div>
+        </div>
+      </div>
+      <div class="list">
+        <img class="imgcls" src="./img/img15.png" alt="">
+        <div class="info">
+          <div class="remark">
+            <strong class="title">备注：</strong>园湖北路29号外15号铺
+          </div>
+          <div class="contract">
+              <strong class="title">合同期：</strong>2021年12月1日至2031年11月30日
+          </div>
+        </div>
+      </div>
+      <div class="list">
+        <img class="imgcls" src="./img/img01.png" alt="">
+        <div class="info">
+          <div class="remark">
+            <strong class="title">备注：</strong>园湖北路29号内1号铺
+          </div>
+          <div class="contract">
+              <strong class="title">合同期：</strong>2023年5月19日至2026年5月18日
+          </div>
+        </div>
+      </div>
+      <div class="list">
+        <img class="imgcls" src="./img/img056.png" alt="">
+        <div class="info">
+          <div class="remark">
+            <strong class="title">备注：</strong>园湖北路29号内5、6号铺
+          </div>
+          <div class="contract">
+              <strong class="title">合同期：</strong>2024年3月20日至2027年3月19日
+          </div>
+        </div>
+      </div>
+      <div class="list">
+        <img class="imgcls" src="./img/img07.png" alt="">
+        <div class="info">
+          <div class="remark">
+            <strong class="title">备注：</strong>园湖北路29号内7号铺
+          </div>
+          <div class="contract">
+              <strong class="title">合同期：</strong>2024年2月1日至2027年1月31日
+          </div>
+        </div>
+      </div>
+      <div class="list">
+        <img class="imgcls" src="./img/img09.png" alt="">
+        <div class="info">
+          <div class="remark">
+            <strong class="title">备注：</strong>园湖北路29号内9号铺
+          </div>
+          <div class="contract">
+              <strong class="title">合同期：</strong>2023年10月10日至2026年10月9日
+          </div>
+        </div>
+      </div>
+      <div class="list">
+        <img class="imgcls" src="./img/img01617.png" alt="">
+        <div class="info">
+          <div class="remark">
+            <strong class="title">备注：</strong>园湖北路29号内16、17号铺
+          </div>
+          <div class="contract">
+              <strong class="title">合同期：</strong>2023年7月20日至2026年7月19日
+          </div>
+        </div>
+      </div>
+      <div class="list">
+        <img class="imgcls" src="./img/img2b1.png" alt="">
+        <div class="info">
+          <div class="remark">
+            <strong class="title">备注：</strong>园湖北路29号二楼B1号铺
+          </div>
+          <div class="contract">
+              <strong class="title">合同期：</strong>2023年8月20日至2028年8月19日
+          </div>
+        </div>
+      </div>
     </div>
 </body>
 </html>
